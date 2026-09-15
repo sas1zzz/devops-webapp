@@ -173,38 +173,9 @@ Netlify automatically publishes new commits from the GitHub repository.
 
 🌐 Live Website
 
-Add your Netlify production URL here:
 
 https://snazzy-fenglisu-28c640.netlify.app/
-🧪 Testing the Pipeline
 
-To test the complete DevOps workflow:
-
-Modify index.html.
-Save the changes.
-Commit the changes.
-Push them to GitHub.
-
-Example:
-
-git add .
-git commit -m "Test automatic deployment"
-git push origin main
-
-The following sequence occurs automatically:
-
-Git Push
-   ↓
-GitHub Actions
-   ↓
-Build & Test
-   ↓
-Slack Notification
-   ↓
-Netlify Deployment
-   ↓
-Updated Live Website
-📊 Expected Results
 
 The project successfully demonstrates:
 
